@@ -54,7 +54,7 @@ module.exports = (
   // if hour is 0 (12:00am), change it to 12
   if (hour === 0) {
     hour = 12;
-  }
+  } 
 
   const minutes = dateObj.getMinutes();
 
